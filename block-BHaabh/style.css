@@ -1,0 +1,294 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Custom Styles*/
+* {
+    box-sizing: border-box;
+}
+
+/*Clearfix*/
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
+/*Container1*/
+
+.container1 {
+    width: max-width;
+    height: 400px;
+    background-color: #548bc2;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-family:'Times New Roman', Times, serif
+}
+header {
+    width: max-width;
+    height: 100px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 50px;
+    font-weight: 10px;
+}
+
+a {
+    text-decoration: none;
+    color:lightgray;;
+}
+h2 {
+    margin-top: 50px;
+    margin-left: 130px;
+    font-size: 15px;
+    float: left;
+    font-weight: bolder;
+}
+
+.con1text {
+    margin-top: 20px;
+    color: lightgray;
+    font-size: 13px;
+}
+
+.navbar {
+    margin-top: 50px; 
+    margin-right: 130px;
+    float: right;
+    word-spacing: 25px;
+    font-size: 12px;
+    color: lightgray;
+}
+
+/*Container2*/
+
+.container2 {
+    max-width: ;
+    height: 300px;
+}
+
+.incontainer2 {
+    margin: auto;
+    margin-top: 30px;
+    width: 87%;
+    height: 80%;
+}
+
+.floater {
+    text-align: left;
+    float: left;
+    width: 27.2%;
+    height: 85%;
+    margin: 3%;
+}
+
+h3 {
+    margin: 10px;
+    width: 100%;
+    color: #548bc2;
+}
+
+.cont2text {
+    margin: 5px 10px;
+    color: lightgray;
+    font-size: 15px;
+}
+
+.button {
+    text-align: center;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-top: 30px;
+    height: 30px;
+    width: 60px;
+    background-color:  #548bc2;
+}
+
+/*Container3*/
+.container3 {
+    max-width: ;
+    height: 500px;
+    background-color: #548bc2;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.cont3text {
+    display: block;
+    width: 100%;
+    height: 100px;
+    padding: 40px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+p {
+margin-top: 10px;
+font-size: 10px;
+font-weight:lighter;
+}
+
+.incont3 {
+    margin: auto;
+    margin-top: 10px;
+    width: 87%;
+    height: 290px;
+}
+
+.floater2 {
+    text-align: center;
+    float: left;
+    width: 15%;
+    height: 85%;
+    margin: 2% 5%;
+    border: solid white 0.5px;
+}
+
+img {
+    margin-top: 18px;
+    height: 150px;
+    width: 150px;
+    border: white 1px solid;
+    border-radius: 50%;
+}
+
+.container4 {
+    max-width: 100%;
+    height: 500px;
+    background-color:white;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-family:'Times New Roman', Times, serif
+}
+.text {
+    margin-left: 10px;
+    color: lightgray;
+    font-size: 15px;
+}
+
+
+.floater4 {
+
+    text-align: left;
+    float: left;
+    width: 40%;
+    height: 85%;
+    margin: 2% 5%;
+    border: solid white 1px;
+
+}
+
+.cont4img {
+    height: 60%;
+    width: 97%;
+    border-radius: 0px;
+    object-fit: cover;
+    margin-left: 10px;
+}
+
+h5 {
+    margin-top:15px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    color:  #548bc2;
+
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
+
+.footercont {
+    width: 79%;
+    height: 50%;
+    margin: 0 auto;
+}
+
+small {
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
+    color: lightgray;
+    font-size: 12px;
+}
+.footernav {
+    float: right;
+    margin-right: 10px;
+}
+
+.socialmediaicons {
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+hr {
+    width: 78%;
+}
+
+.cont4heading {
+    color:  #548bc2;
+}
+
+.cont4para {
+    color: lightgray;
+    font-size: 13px;
+}
